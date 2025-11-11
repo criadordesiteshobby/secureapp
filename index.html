@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Login Firebase</title>
+  <link rel="stylesheet" href="style.css">
+  
+  <!-- SDK do Firebase -->
+  <script src="https://www.gstatic.com/firebasejs/10.13.1/firebase-app.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/10.13.1/firebase-auth.js"></script>
+</head>
+<body>
+  <div class="container">
+    <h1>Entrar</h1>
+    <input id="email" type="email" placeholder="Email">
+    <input id="senha" type="password" placeholder="Senha">
+    <button onclick="login()">Entrar</button>
+    <p>Não tem conta? <a href="#" onclick="cadastro()">Cadastrar</a></p>
+    <p id="msg"></p>
+  </div>
+
+  <script type="module" src="script.js"></script>
+</body>
+      </html>
